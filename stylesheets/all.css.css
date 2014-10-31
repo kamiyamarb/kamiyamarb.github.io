@@ -1,1 +1,61 @@
-body:before{white-space:pre;font-family:monospace;content:"Error: File to import not found or unreadable: bootstrap.\A        Load paths:\A          \A         on line 3 of all.css.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: @import 'bootstrap';\A 4: \A 5: body {\A 6:   background: #d4d4d4 url(\"../images/background.png\");\A 7:   text-align: center;\A 8:   font-family: sans-serif; }"}
+/*
+Error: File to import not found or unreadable: bootstrap.
+       Load paths:
+         
+        on line 3 of all.css.scss
+
+1: @charset "utf-8";
+2: 
+3: @import 'bootstrap';
+4: 
+5: body {
+6:   background: #d4d4d4 url("../images/background.png");
+7:   text-align: center;
+8:   font-family: sans-serif; }
+
+Backtrace:
+all.css.scss:3
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:45:in `import'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:350:in `watch_or_update'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/exec/base.rb:52:in `parse'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/lib/sass/exec/base.rb:19:in `parse!'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.6/bin/scss:13:in `<top (required)>'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/bin/scss:23:in `load'
+/Users/yoichi_dan/.rbenv/versions/2.1.0/bin/scss:23:in `<main>'
+*/
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap.\A        Load paths:\A          \A         on line 3 of all.css.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: @import 'bootstrap';\A 4: \A 5: body {\A 6:   background: #d4d4d4 url(\"../images/background.png\");\A 7:   text-align: center;\A 8:   font-family: sans-serif; }"; }
